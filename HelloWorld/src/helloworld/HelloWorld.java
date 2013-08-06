@@ -20,17 +20,24 @@ public class HelloWorld
     public static void main(String[] args) 
     {
        int count = 0;
-        
+       int [] nums = {0, 4, 5};
+       
        System.out.println ("Hello World!");
        System.out.println (x + y);
        System.out.println ("printing: " + x * y);
        
-       for (int i = count; i < 11; ++i)
+       for (int i = count; i < 10; ++i)
        {
             ++count;
        }
        
        System.out.println("Count is: " + count);
+       System.out.println ("Print contents of nums array: ");
+       for (int i = 0; i < 3; ++i)
+       {
+           System.out.println(nums[i]);
+       }
+       
      }
    }
 
